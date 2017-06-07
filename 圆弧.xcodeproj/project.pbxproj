@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0BD551F1EE7D6FB00ABEA58 /* TMFCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BD551E1EE7D6FB00ABEA58 /* TMFCircleView.m */; };
 		B0DC64421EE79F2E00593A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DC64411EE79F2E00593A75 /* main.m */; };
 		B0DC64451EE79F2E00593A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DC64441EE79F2E00593A75 /* AppDelegate.m */; };
 		B0DC64481EE79F2E00593A75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DC64471EE79F2E00593A75 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0BD551D1EE7D6FB00ABEA58 /* TMFCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFCircleView.h; sourceTree = "<group>"; };
+		B0BD551E1EE7D6FB00ABEA58 /* TMFCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFCircleView.m; sourceTree = "<group>"; };
 		B0DC643D1EE79F2E00593A75 /* 圆弧.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "圆弧.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DC64411EE79F2E00593A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0DC64431EE79F2E00593A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				B0DC64441EE79F2E00593A75 /* AppDelegate.m */,
 				B0DC64461EE79F2E00593A75 /* ViewController.h */,
 				B0DC64471EE79F2E00593A75 /* ViewController.m */,
+				B0BD551D1EE7D6FB00ABEA58 /* TMFCircleView.h */,
+				B0BD551E1EE7D6FB00ABEA58 /* TMFCircleView.m */,
 				B0DC64491EE79F2E00593A75 /* Main.storyboard */,
 				B0DC644C1EE79F2E00593A75 /* Assets.xcassets */,
 				B0DC644E1EE79F2E00593A75 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				B0DC64481EE79F2E00593A75 /* ViewController.m in Sources */,
 				B0DC64451EE79F2E00593A75 /* AppDelegate.m in Sources */,
+				B0BD551F1EE7D6FB00ABEA58 /* TMFCircleView.m in Sources */,
 				B0DC64421EE79F2E00593A75 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				B0DC646C1EE79F2E00593A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0DC646D1EE79F2E00593A75 /* Build configuration list for PBXNativeTarget "圆弧Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				B0DC646F1EE79F2E00593A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0DC64701EE79F2E00593A75 /* Build configuration list for PBXNativeTarget "圆弧UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				B0DC64721EE79F2E00593A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
